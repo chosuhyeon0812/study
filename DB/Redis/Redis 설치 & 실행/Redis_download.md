@@ -29,6 +29,20 @@
 
     # Redis 서버 실행 확인 방법 => Active: active (running)
     sudo service redis-server status
-
-        ![alt text](image.png)
     ```
+        ![alt text](image.png)
+
+## redis-cli에서 간단한 실행
+
+1. Redis CLI : Redis 서버에 명령어 전달하기 위해서 사용하는 프로그램
+
+2. Ping이라는 명령어를 전달했을때 Pong이 리턴되면 Redis가 정상적으로 명령을 전달하고 있다는 것을 확인할 수 있다
+
+3. Redis에 데이터 저장, 조회, 삭제(대소문자 구분 안함)
+
+    - 저장 : SET lecture inflearn-redis => OK 반환
+    - 조회 : GET lecture => "inflearn-redis"
+    - 삭제 : DEL lecture => 1
+    - nil : Redis에서 데이터가 없다는 것을 의미
+
+        ![alt text](image-1.png)
