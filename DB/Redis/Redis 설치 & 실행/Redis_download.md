@@ -30,7 +30,7 @@
     # Redis 서버 실행 확인 방법 => Active: active (running)
     sudo service redis-server status
     ```
-        ![alt text](image.png)
+    ![alt text](image.png)
 
 ## redis-cli에서 간단한 실행
 
