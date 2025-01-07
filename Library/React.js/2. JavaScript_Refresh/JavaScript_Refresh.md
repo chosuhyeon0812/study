@@ -2,7 +2,7 @@
 
 ## 1. HTML script 속성 추가
 
-- defer
+- <strong>defer</strong>
 
     ``` html
     <script src="assets/scripts/app.js" defer></script>
@@ -11,7 +11,7 @@
     1. HTML 파싱과 app.js 다운로드가 동시에 이루어지고, HTML 파싱이 완료된 후 app.js가 실행된다
     2. DOM이 완전히 로드된 뒤 실행되므로 안정
 
-- type="module"
+- <strong>type="module"</strong>
 
     ``` html
     <script src="assets/scripts/app.js" type=
